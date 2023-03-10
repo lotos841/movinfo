@@ -1,0 +1,42 @@
+.app {
+    max-width: 1400px;
+    height: 740px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+    "navbar navbar navbar"
+    "rating-navigetion content Ff"
+    "rating-navigetion content Ff";
+
+    grid-template-rows: 60px 1fr 1fr;
+    grid-template-columns:200px 1000px 200px;
+}
+
+.navbar {
+    max-width: 1400px;
+    position: fixed;
+    grid-area: navbar;
+}
+
+.recommendation {
+    margin: 0px ;
+    grid-area: recommendation;
+}
+
+.rating-navigetion {
+    position: fixed;
+    top: 60px;
+    z-index: 1;
+    margin-top: 10px;
+    width: 200px;
+    height: 2070px;
+    grid-area: rating-navigetion;
+}
+
+.Ff {
+    grid-area: Ff;
+}
+
+.movies-section {
+    grid-area: movies-section;
+}

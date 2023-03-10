@@ -1,0 +1,76 @@
+
+.Similars {
+    background-color:rgb(2, 7, 38);
+}
+
+.similars_blocks{
+    background-color:rgb(2, 7, 38);
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.similars_title {
+    padding-top: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.similars_block{
+    margin: 10px 30px;
+    position: relative;
+    position: relative;
+}
+
+.similars_block:hover .similar-info{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.similars_block:hover img{
+    filter: brightness(20%);
+    scale: 1.08;
+    transition: 0.4s;
+}
+
+.similar_block img{
+    width: 170px;
+    height: 260px;
+    border-radius: 10px;
+    transition: 0.2s;
+    position: relative;
+}
+
+.similar-info{
+    height: 260px;
+    width: 170px;
+    padding: 10px 0px;
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+
+.similar-title{
+    padding: 4px 4px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.similar-more-info {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    width: 170px;
+    height: 260px;
+}
+
+.similar-more-info:hover {
+    text-decoration: underline;
+}

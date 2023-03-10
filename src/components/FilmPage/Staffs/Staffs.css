@@ -1,0 +1,44 @@
+
+.Staff {
+    background-color:rgb(2, 7, 38);
+}
+
+.staffs_title {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.staffs_blocks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.movie_page_staff_block {
+    margin-top: 20px;
+    width: 100px;
+
+    transition: all 0.5s ease;
+}
+
+.movie_page_staff_block:hover {
+    scale: 1.05;
+}
+
+.movie_page_staff_block img{
+    width: 100px;
+    height: auto;
+}
+
+.movie_page_staff_block h3 {
+    margin-top: -2px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.movie_page_staff_block h4{
+    margin-top: -10px;
+    font-size: 10px;
+    text-align: center;
+}

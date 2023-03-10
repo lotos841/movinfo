@@ -1,0 +1,37 @@
+.MainContent {
+    grid-area: content;
+}
+
+
+
+.recommendation {
+    justify-content: center;
+
+}
+
+.slider {
+    margin-left: 40px;
+    width: 900px;
+    height: 600px;
+    overflow: hidden;
+    border: 10px solid white;
+    position: absolute;
+   
+
+}
+
+.navigetion {
+    position: absolute;
+    bottom: 16px;
+    background-color: aqua;
+}
+
+
+
+.recom {
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+

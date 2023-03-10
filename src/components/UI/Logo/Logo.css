@@ -1,0 +1,15 @@
+.logo{
+    font-size: 34px;
+    font-family: 'Kanit', sans-serif;
+    background: linear-gradient(135deg, #f7f7f7 20%, #64ffff 70%);
+    -webkit-background-clip: text;
+    text-decoration: none;
+    -webkit-text-fill-color: transparent;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;
+}

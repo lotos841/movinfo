@@ -1,0 +1,20 @@
+.sign-box{
+    padding: 0px 20px;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-box a{
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.sign-box a:hover{
+    transition: color .2s;
+    color: #64ffff;
+}

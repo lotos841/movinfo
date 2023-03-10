@@ -1,0 +1,163 @@
+ч
+.movies-section{
+    padding-top: 20px;
+    background-color:rgb(2, 7, 38);
+}
+
+.movies-content {
+    margin-left: 70px;
+}
+
+.movies{
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section{
+    cursor: pointer;
+    margin-bottom: 30px;
+    position: relative;
+    margin-right: 50px;
+    position: relative;
+}
+
+.section :hover .movie-info{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.section :hover img{
+    filter: brightness(20%);
+    scale: 1.08;
+    transition: 0.4s;
+}
+
+img{
+    width: 170px;
+    height: 260px;
+    border-radius: 10px;
+    transition: 0.2s;
+    position: relative;
+}
+
+.movie-info{
+    height: 260px;
+    width: 170px;
+    padding: 10px 0px;
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+
+.movie-title{
+    padding: 4px 4px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.movie-category{
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 5px;
+}
+
+.movie-dop-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.movie-rating{
+    font-size: 28px;
+    position: absolute;
+    bottom: 120px;
+    left: 3%;
+    color: yellow;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.movie-year{
+    position: absolute;
+    bottom: 90px;
+    left: 3%;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.movie-country{
+    position: absolute;
+    bottom: 90px;
+    left: 30%;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.movie-filmLength{
+    position: absolute;
+    bottom: 60px;
+    left: 3%;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.movie-genres{
+    position: absolute;
+    bottom: 60px;
+    left: 3%;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.movie-more-info {
+    position: absolute;
+    bottom: 30px;
+    width: 170px;
+    height: 264px;
+    left: 3%;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5px;
+    transition: all 0.2s ease;
+}
+
+.next_page_btn{
+    margin-bottom: 20px;
+    margin-left: 46%;
+    font-size:24px;
+    border-radius: 10px;
+    transition: 0.4s;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.next_page_btn:hover {
+    transition: 0.4s;
+    scale: 1.1;
+    background-color: rgb(85, 85, 85);
+}
+
+.next_page_btn a {
+    color: black;
+}
+
+.next_page_btn a:hover {
+    color: aqua;
+}
+

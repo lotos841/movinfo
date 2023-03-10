@@ -1,0 +1,9 @@
+.FilmPage {
+    grid-area: content;
+    background-color:rgb(2, 7, 38);
+    color: white;
+    position: relative;
+    height: 1400px;
+}
+
+

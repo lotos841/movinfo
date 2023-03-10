@@ -1,0 +1,39 @@
+.menu-btn{
+    position: relative;
+    color: white;
+    transition: color .2s;
+}
+
+.menu-btn:hover{
+    transition: color .2s;
+    color: #64ffff;
+}
+
+.burger-menu{
+    opacity: 0;
+    width: 145px;
+    transition: opacity .3s;
+    padding: 20px 40px;
+    position: absolute;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #1a1a26;
+    z-index: 2;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.menu-item:hover{
+    transition: color .2s;
+    color: #64ffff;
+}

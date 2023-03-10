@@ -1,0 +1,66 @@
+
+.recommendation {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(2, 7, 38);
+}
+
+.recom_Movies {
+  display: flex;
+  justify-content: space-around;
+}
+
+.recom_section {
+  position: relative;
+}
+
+.recom_movie_img{
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.recom_section {
+ 
+}
+
+.recom{
+    position: relative;   
+}
+
+.recom_movie_info {
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    display: flex;
+}
+
+.recom_movie_name {
+    color: white;
+    padding: 5px;
+    background-color: #5e5e5e;
+    border-radius: 10px;
+}
+
+.recom_movie_trailer {
+  padding: 5px;
+  margin-left: 10px;
+  background-color: #5e5e5e;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.recom_movie_trailer:hover {
+  background-color: #a1a1a1;
+}
+
+.recom_movie_trailer a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  transition: all 0.2s ease
+}
+
+
+

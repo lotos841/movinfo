@@ -1,0 +1,131 @@
+.film_section {
+    height: 600px;
+    margin-top: 20px;
+}
+
+.movie_page_img {
+    margin: 20px 20px;
+    width: 960px;
+    height: auto;
+    opacity: 0.2;
+    position: relative;
+}
+
+.movie_page_info {
+    position:absolute;
+    margin: 20px 20px;
+    border-radius: 20px;
+    padding: 10px;
+    top: 10px;
+}
+
+.movie_page_info_header {
+    display: flex;
+}
+
+.movie_page_info_header_name_desc {
+
+}
+
+.movie_page_poster {
+    margin: 20px;
+    width: 200px;
+    height: auto;
+}
+
+.movie_page_name {
+    margin-top: 20px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.movie_page_slogan {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.movie_page_trailer {
+    margin-top: 20px;
+    width: 100px;
+    background-color: rgb(7, 147, 255);
+    border-radius: 20px;
+    padding: 5px 15px;
+    transition: all 0.2s ease;
+}
+
+.movie_page_trailer:hover {
+    scale: 1.03;
+}
+
+.movie_page_trailer a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.movie_page_rating {
+    margin-top: 35px;
+    margin-left: 80px;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    line-height: 40px; 
+    font-size: 28px;
+    border-radius: 50px;
+    background-color: rgb(7, 147, 255);
+}
+
+.movie_page_genre {
+    margin-top: 10px;
+}
+
+.movie_page_genre span {
+    color: rgb(7, 147, 255);
+}
+
+.movie_page_time {
+    margin-top: 10px;
+}
+
+.movie_page_time span {
+    color:rgb(7, 147, 255);
+}
+
+.movie_page_country {
+    margin-top: 10px;
+}
+
+.movie_page_country span{
+    color: rgb(7, 147, 255);
+}
+
+.movie_page_site {
+    margin-top: 20px;
+    background-color: rgb(7, 147, 255);
+    padding: 5px 15px;
+    width: 125px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+
+.movie_page_site:hover {
+    scale: 1.03;
+}
+
+.movie_page_site a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.movie_page_description {
+    margin: 20px;
+    font-size: 16px;
+    text-align: justify;
+    width: 900px;
+}
+
+.movie_page_description span {
+    font-size: 24px;
+    color: rgb(7, 147, 255);
+}

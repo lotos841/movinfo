@@ -1,0 +1,21 @@
+.Still {
+    margin-top: 20px;
+}
+
+.movie_page_still_imgs {
+    width: 990px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color:rgb(2, 7, 38);
+}
+
+.movie_page_still_img {
+    width: 30%;
+    height: 30%;
+    transition: all 0.5s ease;
+}
+
+.movie_page_still_img:hover {
+    scale: 1.05;
+}
